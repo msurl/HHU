@@ -9,6 +9,8 @@ public class dieMain extends Blatt1 {
          System.out.println("Nummer 1d ist" + " " + Blatt1.No1D()+".");
          System.out.println("Nummer 1e ist" + " " + Blatt1.No1E()+".");
          System.out.println("Nummer 1f ist" + " " + Blatt1.No1F()+".");
+         
+         System.out.println(Blatt1.Aufgabe2());
 		 
 
 	 }
