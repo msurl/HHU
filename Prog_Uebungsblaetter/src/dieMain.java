@@ -11,6 +11,9 @@ public class dieMain extends Blatt1 {
          System.out.println("Nummer 1f ist" + " " + Blatt1.No1F()+".");
          
          System.out.println(Blatt1.Aufgabe2());
+         System.out.println(Blatt1.Aufgabe3());
+         System.out.println(Blatt1.Aufgabe4());
+         System.out.println(Blatt1.Aufgabe5());
 		 
 
 	 }
