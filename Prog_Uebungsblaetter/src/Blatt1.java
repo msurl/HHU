@@ -93,8 +93,10 @@ public class Blatt1 {
             double ergebnis;
             double faktor;
             faktor = 360/400;
+            System.out.println(faktor);
             ergebnis = i * faktor;
-            return String f =("i"+" "+"Gon sind umgerechnet"+ergebnis+" "+"°");      
+            String f =(i+" "+"Gon sind umgerechnet "+ergebnis+"°"); 
+            return f;
         }
         
         
