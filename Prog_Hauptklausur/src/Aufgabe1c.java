@@ -10,7 +10,7 @@ public class Aufgabe1c {
  public static void main(String args[]) {
 
 
-  int array[] = {1,1,1,2,1};
+  int array[] = {1,2,3,1,0,2,3};
   boolean z = canBalance(array);
   System.out.println(z);
  }
@@ -20,7 +20,7 @@ public class Aufgabe1c {
    int summe1 = 0;
    int summe2 = 0;
 
-   while (i!= j - 1) { //bis die werte nebeneinander stehen dann abbruch
+   while (i!= j + 1) { //bis die werte nebeneinander stehen dann abbruch
     if (summe1 >= summe2) {
      summe2 += array[j]; //0+inhalt des index 4 des arrays, also 1
      j--;
@@ -31,7 +31,7 @@ public class Aufgabe1c {
      }
     }
     if (summe1 == summe2) {
-     return true;
+    return true;
     }
     return false;
    }

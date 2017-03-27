@@ -18,12 +18,12 @@ public class Blatt1 {
 	 boolean e;
 	 boolean f;
 	 
-	 if(a == 0 && b ==0 && c ==0);
-	return true; 
-		
-	 	}
-	 }
-
-
+	 	if(a == 0 && b ==0 && c ==0){
+	 		return true; 
+	 		}else{
+	 		return false;
+	 		}
 	 
+	 }
+}
 
