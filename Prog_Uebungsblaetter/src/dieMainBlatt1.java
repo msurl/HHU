@@ -1,6 +1,5 @@
 
-
-public class dieMain extends Blatt1 {
+public class dieMainBlatt1 extends Blatt1{
 	 public static void main(String args[]) {
 		 
          System.out.println("Nummer 1a ist" + " " + Blatt1.No1A()+".");

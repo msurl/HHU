@@ -90,10 +90,12 @@ public class Blatt1 {
 
     /*
      *  > Aufgabe 1: Logische Ausdrücke <
-     * a) Geben Sie für jeden der folgenden Ausdrücke einen entsprechenden (möglichst kurzen) Java-Ausdruck an, der true
+     * Geben Sie für jeden der folgenden Ausdrücke einen entsprechenden (möglichst kurzen) Java-Ausdruck an, der true
      * liefert, wenn die Bedingung zutrifft, und ansonsten false. a, b, und c sind int-Variablen, d, e, f sind boolean-
      * Variablen.
      */
+
+//  a) a, b und c sind alle null
     protected static boolean No1A() {
         int a = 0;
         int b = 0;
@@ -106,7 +108,7 @@ public class Blatt1 {
         }
     }
 
-//  a) a, b und c sind alle null
+//  b) a ist gerade und liegt zwischen -10 und 10.
     protected static boolean No1B() {
         int a = 0;
 
@@ -117,11 +119,11 @@ public class Blatt1 {
         }
     }
 
-//  b) a ist gerade und liegt zwischen -10 und 10.
+//  c) b ist durch 19 teilbar und echt negativ.
     protected static boolean No1C() {
         int b = 95;
 
-        if (b % 19 == 0) {
+        if (b % 19 < 0) {
             return true;
         } else {
             return false;
@@ -132,7 +134,7 @@ public class Blatt1 {
     protected static boolean No1D() {
         int c = 17;
 
-        if ((c == 17) || (c == 77) || (c == 91)) {
+        if ((c % 7 == 0) && ((c % 2 == 0) || (c % 11 == 0) || (c % 13 == 0))) {    // mod, denn das vielfache muss teilbar sein
             return true;
         } else {
             return false;
@@ -145,7 +147,7 @@ public class Blatt1 {
         boolean e = true;
         boolean f = true;
 
-        if ((d == true) && (e == true) && (f == true)) {
+        if ((d == true) && (e == true) && (f == true)) {    // oder (d && e && f) || (!d && !e && !f)
             return true;
         } else {
             return false;
@@ -160,7 +162,7 @@ public class Blatt1 {
 
         if (((d == true) && (e == false) && (f == true))
                 || ((d == true) && (e == true) && (f == false))
-                || ((d == false) && (e == true) && (f == true))) {
+                || ((d == false) && (e == true) && (f == true))) {    // oder (!d && e && f) || (d && !e && f) || (d && e && !f)
             return true;
         } else {
             return false;
