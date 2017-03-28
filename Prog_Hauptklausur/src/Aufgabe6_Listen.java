@@ -17,7 +17,7 @@ public class Aufgabe6_Listen {
         		current = current.next;
         	}
         		Node newNode = nd;
-        		newNode.next = null; // der nachfolger des neuen nodes ist null
+        		newNode.next = null; // der nachfolger des neuen nodes 
         		current.next = newNode;
         	
         }
