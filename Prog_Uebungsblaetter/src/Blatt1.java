@@ -17,7 +17,7 @@ public class Blatt1 {
         faktor   = 360.0 / 400.0;
         ergebnis = i * faktor;
 
-        String f = (i + " " + "Gon sind umgerechnet " + ergebnis + "°");
+        String f = ("B1.Aufgabe2: "+i+ " " + "Gon sind umgerechnet " + ergebnis + "°");
 
         return f;
     }
@@ -38,7 +38,7 @@ public class Blatt1 {
 
         endposition = ((anfangsposition + geschwindigkeit) * zeit) - (erdbeschleunigung * (Math.pow(zeit, 2))) / 2;
 
-        String f = ("Der Körper auf Position " + anfangsposition + " befindet sich nach " + zeit + " Sekunden"
+        String f = ("B1.Aufgabe3: "+"Der Körper auf Position " + anfangsposition + " befindet sich nach " + zeit + " Sekunden"
                     + "an der Endposition " + endposition);
 
         return f;    // Ausgabe ist -116.62932, korrekt wäre -146.62932
@@ -50,12 +50,13 @@ public class Blatt1 {
      * Die Zufallszahl soll dabei auch die Werte von n und m annehmen können. Die Erzeugung von Zufallszahlen zwischen n
      * und m kann beispielsweise zur Simulation von Glücksspielen (Lotto 6 aus 49, etc.) verwendet werden.
      */
-    protected static int Aufgabe4() {
+    protected static void Aufgabe4() {
         int m           = 6;
         int n           = 49;
         int zufallszahl = (int) (Math.random() * 44) + 6;
-
-        return zufallszahl;
+        
+        System.out.println("B1.Aufgabe4: "+"Zufallszahl: "+zufallszahl);
+        //return zufallszahl;
     }
 
     /*
@@ -65,12 +66,12 @@ public class Blatt1 {
      * Hinweis: Der Median einer Zahlenfolge ist das mittlere Element der sortierten Zahlenfolge. Sie sollen aber keinen
      * Sortieralgorithmus implementieren.
      */
-    protected static int Aufgabe5() {
+    protected static void Aufgabe5() {
         int[]  zahlen = new int[3];
         double median;
 
         zahlen[0] = 1;
-        zahlen[1] = 15;
+        zahlen[1] = 13;
         zahlen[2] = 3;
 
         // for (int i=0; i<zahlen.length; i++) {
@@ -84,8 +85,8 @@ public class Blatt1 {
         } else {
             median = (double) zahlen[zahlen.length / 2];
         }
-
-        return (int) median;
+        System.out.println("B1.Aufgabe5: Der Median von [1,13,3] befindet sich bei: "+(int)median);
+       // return (int) median;
     }
 
     /*

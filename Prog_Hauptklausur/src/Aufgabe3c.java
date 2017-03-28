@@ -43,6 +43,13 @@ public class Aufgabe3c {
    System.out.println("array null");
   }
  }
+ 
+//3a 2 57
+//3b 6 -4
+//3c nicht ausführbar: 2,4,6 Index out of bounds
+//print a = 0 -1 0 1 2 5 4 5 6 7
+//print b = -1 3 4 6 6 
+//print c = -1 3 4 6 6 ? referenzbug so gefragt?
 
 
  public static void fill(int[] arr, int a) { //jeder arraywert ab1: 1+a / 2+a / 3+a / 4+a  
