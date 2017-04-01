@@ -1,5 +1,5 @@
 public class Aufgabe_2 {
-
+// Aufgabe 2: Aufgabe 2: Schleifen und Rekursion
  // a) Formen Sie die nachfolgende for-Schleife in eine while-Schleife um.
  protected static int FortoWhile() {
    int a = 0;
