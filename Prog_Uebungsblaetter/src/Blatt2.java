@@ -92,10 +92,26 @@ public class Blatt2 {
     }
 
     protected static void Aufgabe5() {
-        int zufallszahl;
+        int a = 3;
+        int b = 4;
+        int c = 5;
 
-        zufallszahl = (int) (Math.random() * 44) + 6;
-        System.out.println(zufallszahl);
+        // Median a:
+        if (c<a && a<b || a<b && c<a) {
+            System.out.printf("Das Median von %d, %d und %d ist %d.", a, b, c, a);
+            }
+        
+        // Median b:
+        if (a<b && b<c || b<c && a<b) {
+            System.out.printf("Das Median von %d, %d und %d ist %d.", a, b, c, b);
+            }
+        
+        // Median c:
+        if (b<c && c<a || c<a && b<c) {
+            System.out.printf("Das Median von %d, %d und %d ist %d.", a, b, c, c);
+            
+        }
+
     }
 }
 

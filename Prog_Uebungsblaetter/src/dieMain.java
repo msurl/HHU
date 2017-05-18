@@ -23,6 +23,7 @@ public class dieMain {
         Blatt2.Aufgabe2();
         Blatt2.Aufgabe3();
         Blatt2.Aufgabe4();
+        Blatt2.Aufgabe5();
     }
 }
 
