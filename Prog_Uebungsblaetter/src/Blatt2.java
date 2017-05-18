@@ -1,3 +1,7 @@
+import java.math.*;
+
+import java.util.Scanner;
+
 public class Blatt2 {
 
     /*
@@ -33,8 +37,8 @@ public class Blatt2 {
          * 7. Init  i=6,j=15  >> i<10 trifft zu >> i(6)+1 ab nächsten Durchlauf >> j(15)=j(15)+i(6) //j=21 i=7
          * 8. Init  i=7,j=21  >> i<10 trifft zu >> i(7)+1 ab nächsten Durchlauf >> j(21)=j(21)+i(7) //j=28 i=8
          * 9. Init  i=8,j=28  >> i<10 trifft zu >> i(8)+1 ab nächsten Durchlauf >> j(28)=j(28)+i(8) //j=36 i=9
-         *10. Init  i=9,j=36  >> i<10 trifft zu >> i(9)+1 ab nächsten Durchlauf >> j(36)=j(36)+i(9) //j=45  i=10
-         *11. Init  i=10,j=45  >> i(10)<10 trifft nicht zu >> Beende Schleife
+         * 10. Init  i=9,j=36  >> i<10 trifft zu >> i(9)+1 ab nächsten Durchlauf >> j(36)=j(36)+i(9) //j=45  i=10
+         * 11. Init  i=10,j=45  >> i(10)<10 trifft nicht zu >> Beende Schleife
          */
         return (j);
     }
@@ -51,13 +55,47 @@ public class Blatt2 {
 
         System.out.println("B2.1c:\nn = " + n + "\nm = " + m);
     }
-    /* d)Formen Sie die nachfolgenden for-Schleifen jeweils in eine while-Schleife um.
+
+    /*
+     *  d)Formen Sie die nachfolgenden for-Schleifen jeweils in eine while-Schleife um.
      * 1.
-     */ 
+     */
     protected static void Aufgabe1d() {
-    	for (int i = 20; i > 1; i--) {
-    		System.out.println(i);
-    	}
+        for (int i = 20; i > 1; i--) {
+            System.out.println(i);
+        }
+    }
+
+    protected static void Aufgabe2() {
+        double gon = 200;
+
+        gon *= 0.9;
+        System.out.println("Aufgabe 2: 200 Gon sind: " + gon + " Grad");
+    }
+
+    protected static void Aufgabe3() {
+        double x         = 1;
+        double v         = 2;
+        double t         = 3;
+        double g         = 9.81274;
+        double ballistic = ((x + v) * t) - ((g * Math.pow(t, 2)) / 2);
+
+        System.out.println("Aufgabe 3: Nach " + t + " Sekunden befindet sich der Körper mit der Geschwindigeit " + v
+                           + " und der Ausgangsposition " + x + " an der neuen Position " + ballistic);
+    }
+
+    protected static void Aufgabe4() {
+        int zufallszahl;
+
+        zufallszahl = (int) (Math.random() * 44) + 6;
+        System.out.println(zufallszahl);
+    }
+
+    protected static void Aufgabe5() {
+        int zufallszahl;
+
+        zufallszahl = (int) (Math.random() * 44) + 6;
+        System.out.println(zufallszahl);
     }
 }
 
