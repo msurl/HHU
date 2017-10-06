@@ -17,7 +17,7 @@ public class Blatt1 {
         faktor   = 360.0 / 400.0;
         ergebnis = i * faktor;
 
-        String f = ("B1.Aufgabe2: "+i+ " " + "Gon sind umgerechnet " + ergebnis + "�");
+        String f = ("B1.Aufgabe2: "+i+ " " + "Gon sind umgerechnet " + ergebnis + "°");
 
         return f;
     }
@@ -41,7 +41,7 @@ public class Blatt1 {
         String f = ("B1.Aufgabe3: "+"Der Körper auf Position " + anfangsposition + " befindet sich nach " + zeit + " Sekunden"
                     + "an der Endposition " + endposition);
 
-        return f;    // Ausgabe ist -116.62932, korrekt w�re -146.62932
+        return f;    // Ausgabe ist -116.62932, korrekt wäre -146.62932
     }
 
     /*
