@@ -17,7 +17,7 @@ public class Addieren_mit_Array {
 		System.out.println(i[0] +" + "+i[1]+" = "+ i[2]);
 		
 
-		dada
+
 		
 	}
 }
