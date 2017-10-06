@@ -24,7 +24,7 @@ public class Blatt1 {
 
     /*
      *  > Aufgabe 3: Ballistische Kurve <
-     * Schreiben Sie ein Programm Balistic, das mithilfe der Formel x0+v0*t-(g*t^2)/2 das Ergebnis für drei beliebigen
+     * Schreiben Sie ein Programm Ballistic, das mithilfe der Formel x0+v0*t-(g*t^2)/2 das Ergebnis für drei beliebigen
      * positiven Fließkommazahlen x0, v0 und t berechnet. Die Formel berechnet die Position eines Körpers nach der Zeit t,
      * der von Position x0 aus mit einer Geschwindigkeit v0 nach oben geworfen wird. Die Konstante g = 9; 81274 m/s^2 ist
      * die Erdbeschleunigung.
@@ -91,7 +91,7 @@ public class Blatt1 {
 
     /*
      *  > Aufgabe 1: Logische Ausdrücke <
-     * Geben Sie f�r jeden der folgenden Ausdrücke einen entsprechenden (m�glichst kurzen) Java-Ausdruck an, der true
+     * Geben Sie für jeden der folgenden Ausdrücke einen entsprechenden (möglichst kurzen) Java-Ausdruck an, der true
      * liefert, wenn die Bedingung zutrifft, und ansonsten false. a, b, und c sind int-Variablen, d, e, f sind boolean-
      * Variablen.
      */
