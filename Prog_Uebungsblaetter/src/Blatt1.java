@@ -17,7 +17,7 @@ public class Blatt1 {
         faktor   = 360.0 / 400.0;
         ergebnis = i * faktor;
 
-        String f = ("B1.Aufgabe2: "+i+ " " + "Gon sind umgerechnet " + ergebnis + "°");
+        String f = ("B1.Aufgabe2: " + i + " " + "Gon sind umgerechnet " + ergebnis + "°");
 
         return f;
     }
@@ -38,8 +38,8 @@ public class Blatt1 {
 
         endposition = ((anfangsposition + geschwindigkeit) * zeit) - (erdbeschleunigung * (Math.pow(zeit, 2))) / 2;
 
-        String f = ("B1.Aufgabe3: "+"Der Körper auf Position " + anfangsposition + " befindet sich nach " + zeit + " Sekunden"
-                    + "an der Endposition " + endposition);
+        String f = ("B1.Aufgabe3: " + "Der Körper auf Position " + anfangsposition + " befindet sich nach " + zeit
+                    + " Sekunden" + "an der Endposition " + endposition);
 
         return f;    // Ausgabe ist -116.62932, korrekt wäre -146.62932
     }
@@ -54,9 +54,10 @@ public class Blatt1 {
         int m           = 6;
         int n           = 49;
         int zufallszahl = (int) (Math.random() * 44) + 6;
-        
-        System.out.println("B1.Aufgabe4: "+"Zufallszahl: "+zufallszahl);
-        //return Zufallszahl;
+
+        System.out.println("B1.Aufgabe4: " + "Zufallszahl: " + zufallszahl);
+
+        // return Zufallszahl;
     }
 
     /*
@@ -85,8 +86,10 @@ public class Blatt1 {
         } else {
             median = (double) zahlen[zahlen.length / 2];
         }
-        System.out.println("B1.Aufgabe5: Der Median von [1,13,3] befindet sich bei: "+(int)median);
-       // return (int) median;
+
+        System.out.println("B1.Aufgabe5: Der Median von [1,13,3] befindet sich bei: " + (int) median);
+
+        // return (int) median;
     }
 
     /*

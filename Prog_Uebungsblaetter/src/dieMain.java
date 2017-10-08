@@ -10,7 +10,8 @@ public class dieMain {
         System.out.println("B1.1e:" + " " + Blatt1.No1E());
         System.out.println("B1.1f:" + " " + Blatt1.No1F());
         System.out.println(Blatt1.Aufgabe2());
-        //System.out.println(Blatt1.Aufgabe3());
+
+        // System.out.println(Blatt1.Aufgabe3());
         Blatt1.Aufgabe4();
         Blatt1.Aufgabe5();
         System.out.println("\n");
