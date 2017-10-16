@@ -8,7 +8,7 @@ public class Blatt1 {
      *
      * Schreiben Sie ein Java-Programm, dass eine beliebige ganze Zahl in der EInheit Gon korrekt in das Gradmaß überführt
      * und ausgibt. Beachten Sie, dass das Ergebnis eine Gleitkommazahl sein kann.
-     */
+     */ hh
     protected static String Aufgabe2() {
         double i = 5.0;
         double ergebnis;
