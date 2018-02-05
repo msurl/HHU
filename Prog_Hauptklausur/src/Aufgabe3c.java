@@ -1,5 +1,5 @@
 /*
- * Ausgaben und Exceptions
+ * Ausgaben und Exceptions 
  * Aufgabenstellung zu 3c:
  * Geben Sie an, ob die mit Anweisung gekennzeichneten Stellen (Anweisung (1) bis Anweisung (6)) im
 nachfolgenden Code fehlerfrei ausführbar sind oder, falls es an dieser Stelle zu einer Exception kommt, welche

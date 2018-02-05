@@ -4,7 +4,7 @@ public class Aufgabe6_Listen {
      *  a) Wenn Datenstruktur dynamisch sein soll, da ein Array nach Übergabe von x Parametern statisch ist.
      * Werte können verändert werden, nur länge ist statisch.
      * b) kenne immer nur den nachfolger
-     */
+     */ 
 	
     public class LinkedList {
         public Node head = null;

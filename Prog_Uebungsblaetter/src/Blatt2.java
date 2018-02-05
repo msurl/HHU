@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Blatt2 {
 
     /*
-     *  > Aufgabe 1: Verzweigungen und Schleifen <
+     *  > Aufgabe 1: Verzweigungen und Schleifen < 
      *  a)
      *   1. if a > b c = 0; // Klammer fehlt
      *   2. if (a>b)c=0; //korrekt

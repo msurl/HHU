@@ -23,3 +23,4 @@ public class Aufgabe1a {
   return a;
  }
 }
+ 

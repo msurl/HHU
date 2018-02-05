@@ -2,7 +2,7 @@
 Schreiben Sie eine Methode boolean canBalance(int[] array), die ein nicht-leeres Integer-Array
 übergeben bekommt und zurückgibt, ob es eine Position gibt, an der das Array in zwei Arrays mit der gleichen
 Summe ihrer Elemente aufgeteilt werden kann. (7 Punkte)
-*/
+*/ 
 
 
 public class Aufgabe1c {

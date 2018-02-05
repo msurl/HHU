@@ -17,4 +17,4 @@ public class Aufgabe5_SuperHero extends Aufgabe5_Human {  //erbt alles von Human
 
 
 
-//~ Formatted by Jindent --- http://www.jindent.com
+//~ Formatted by Jindent --- http://www.jindent.com 

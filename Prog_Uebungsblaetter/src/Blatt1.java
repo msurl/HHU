@@ -1,7 +1,7 @@
 public class Blatt1 {
 
 	/*
-	 *  > Aufgabe 2: Die Winkelmaßeinheit Gon <
+	 *  > Aufgabe 2: Die Winkelmaßeinheit Gon < 
 	 * Das Gon ist eine Hilfsmaßeinheit zur Angabe derWinkelweite ebenerWinkel, die sich letztendlich nur im Vermessungswesen
 	 * etablieren konnte. Als Einheitszeichen wird "Gon" verwendet. Ein Gon ist definiert als der vierhundertste Teil
 	 * des Vollwinkels, dh.h, 1 Vollwinkel = 400g = 360°.

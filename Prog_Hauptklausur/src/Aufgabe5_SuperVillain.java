@@ -13,4 +13,4 @@ public class Aufgabe5_SuperVillain extends Aufgabe5_Human {  //SuperVillian erbt
 
 
 
-//~ Formatted by Jindent --- http://www.jindent.com
+//~ Formatted by Jindent --- http://www.jindent.com 
