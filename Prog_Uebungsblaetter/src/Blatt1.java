@@ -170,7 +170,7 @@ public class Blatt1 {
             return true;
         } else {
             return false;
-        }
+        } s
     }
 }
 
