@@ -157,7 +157,7 @@ public class Blatt1 {
             return false;
         }
     }
-dd
+55
     // f) Genau eines von d, e und f ist false.
     protected static boolean No1F() {
         boolean d = true;
