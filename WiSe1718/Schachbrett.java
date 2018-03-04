@@ -25,16 +25,15 @@ public class Schachbrett {
 		Scanner s = new Scanner(System.in);
 		System.out.println("Zahl eingeben");
 		int n = s.nextInt();
-		if (n < 1)
+		if (n < 1) {
 			System.out.println("ERROR");
-		return;
+		return;}
 
 		int tmp = n;
 		for (int i = 0; i <= tmp; i++) {
 			if (i % 2 == 0) {
 				System.out.println("*");
-				if (!(i % 2 == 0))
-					;
+				if (!(i % 2 == 0));
 			}
 		}
 
